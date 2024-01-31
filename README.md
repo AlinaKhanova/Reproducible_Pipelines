@@ -1,4 +1,4 @@
-# Project Title
+# Analysis of Missing Values in Titanic Dataset
 This repository contains R code for analyzing missing values in data using visualization techniques.
 
 # Data
