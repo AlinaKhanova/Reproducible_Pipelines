@@ -32,6 +32,7 @@ To use Docker for running the code in this repository, follow these steps:
 * docker run --rm --name reproducible_pipeline -v directory:directory reproducible_pipeline
 * for my computer: docker run --rm --name reproducible_pipeline -v D:\Reproducible\Reproducible:/Reproducible/Reproducible reproducible_pipeline
 
+link to image: https://hub.docker.com/layers/alinakhanova/reproducible_pipeline/version1/images/sha256-559861887c3f668044ddcf759b62885cca8758fb03d8331a407fd0e1467790ca?tab=layers
 # Functions
 This project provides R functions for analyzing missing values in datasets. The main functions are:
 
