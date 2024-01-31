@@ -32,12 +32,12 @@ To use Docker for running the code in this repository, follow these steps:
 * docker run --rm --name reproducible_pipeline -v directory:directory reproducible_pipeline
 * for my computer: docker run --rm --name reproducible_pipeline -v D:\Reproducible\Reproducible:/Reproducible/Reproducible reproducible_pipeline
 
-# Project Title
+# Functions
 This project provides R functions for analyzing missing values in datasets. The main functions are:
 
 * get_data(): Retrieves the Titanic dataset for analysis.
-* msv_1(df, thresh, color, edgecolor, height, width): Generates a bar plot showing the percentage of missing values per column in the dataset.
-* save_plot(save_path, plot): Saves the generated plot to a specified file path.
+* msv_1(df, ...): Generates a bar plot showing the percentage of missing values per column in the dataset.
+* save_plot(save_path, plot): Saves the generated plot to the working directory.
 
 # Usage
 You can use the provided functions to analyze missing values in your dataset by following the code examples provided in the repository
